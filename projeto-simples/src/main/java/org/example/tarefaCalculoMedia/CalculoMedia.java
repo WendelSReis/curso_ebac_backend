@@ -23,6 +23,13 @@ public class CalculoMedia {
 
         System.out.println("A média das notas é: " + media);
 
+        if (media >= 7.0) {
+            System.out.println("Aluno aprovado!");
+        } else if (media >= 5) {
+            System.out.println("Aluno em recuperação.");
+        } else {
+            System.out.println("Aluno reprovado.");
+        }
         scanner.close();
     }
 }
