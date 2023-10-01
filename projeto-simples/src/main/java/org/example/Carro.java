@@ -6,7 +6,6 @@ public class Carro {
     private double preco;
     private boolean ligado;
 
-    // Construtor da classe
     public Carro(String marca, String modelo, int ano, double preco) {
         this.marca = marca;
         this.modelo = modelo;
