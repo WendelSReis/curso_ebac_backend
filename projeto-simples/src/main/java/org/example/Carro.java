@@ -42,8 +42,6 @@ public class Carro {
         System.out.println("Preço: R$" + preco);
         System.out.println("Status: " + (ligado ? "Ligado" : "Desligado"));
     }
-
-    // Método principal para testar a classe
     public static void main(String[] args) {
         // Criando um objeto Carro usando o construtor
         Carro meuCarro = new Carro("Toyota", "Corolla", 2022, 150000.0);
